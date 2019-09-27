@@ -17,9 +17,7 @@ export default class AddTodoComment extends PureComponent {
   onSubmit = (e) => {
     e.preventDefault();
     const { comment } = this.state;
-    console.log({
-      comment
-    });
+
     this.props.onSubmit && this.props.onSubmit(comment);
     this.setState({
       comment: ''
