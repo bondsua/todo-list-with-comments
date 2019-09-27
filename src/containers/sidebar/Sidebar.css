@@ -1,0 +1,19 @@
+.Sidebar {
+  background-color: #4D6680;
+  width: 270px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Sidebar_logo {
+  font-size: 2rem;
+  color: white;
+  text-transform: uppercase;
+}
+
+.Sidebar_language {
+  margin-top: auto;
+  margin-bottom: 20px;
+  text-align: center;
+}

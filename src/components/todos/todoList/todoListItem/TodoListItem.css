@@ -1,0 +1,45 @@
+.TodoListItem {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 8px 0;
+}
+
+.TodoListItem__active:before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background-color: #FF2F5A;
+}
+
+.TodoListItem_content {
+  flex: 1 1 auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+
+.TodoListItem_content_name {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.TodoListItem_content_count {
+  margin-left: 10px;
+  color: white;
+  position: static;
+  transform: none;
+  font-weight: bold;
+  font-size: 0.8125rem;
+  height: 21px;
+  min-width: 21px;
+}
+
+.TodoListItem_actions {
+  flex: 0 0 auto;
+  margin-left: 10px;
+}

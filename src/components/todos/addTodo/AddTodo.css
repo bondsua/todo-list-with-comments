@@ -1,0 +1,16 @@
+.AddTodo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddTodo_input {
+  flex: 1 1 auto;
+}
+
+.AddTodo_submit-button {
+  flex: 0 0 auto;
+  min-width: 120px;
+  min-height: 38px;
+  margin-left: 10px;
+}
