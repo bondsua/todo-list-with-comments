@@ -2,4 +2,6 @@
   max-height: 400px;
   overflow-x: hidden;
   overflow-y: auto;
+  margin: 0 -20px;
+  padding: 20px;
 }
