@@ -2,11 +2,13 @@
  * @author Evheniy Bondarev <bondsua@gmail.com>
  */
 import { ACTIONS_TYPE } from './constants';
+import uniqid from 'uniqid';
 
 export function addTodo (name) {
   return {
     type: ACTIONS_TYPE.ADD_TODO,
     payload: {
+      id: uniqid(),
       name,
       comments: []
     }
@@ -27,7 +29,7 @@ export function setCurrentTodoIndex (index) {
   };
 }
 
-export function addCommentToTodo ({todoIndex, comment}) {
+export function addCommentToTodo ({ todoIndex, comment }) {
   return {
     type: ACTIONS_TYPE.ADD_COMMENT_TO_TODO,
     payload: {

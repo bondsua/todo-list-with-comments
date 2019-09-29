@@ -54,7 +54,10 @@ class TodoComments extends PureComponent {
 
     return (
         <div>
-          <TodoCommentsList comments={currentTodo.comments} />
+          <TodoCommentsList
+              key={currentTodo.id}
+              comments={currentTodo.comments}
+          />
           <AddTodoComment
               onSubmit={this.onAddComment}
               className='TodoComments_add-comment'

@@ -7,14 +7,13 @@ import PropTypes from 'prop-types';
 import { ListItem, ListItemIcon, ListItemText } from '@material-ui/core';
 
 import './TodoCommentTemplate.css';
-import Avatar from '../../avatar/Avatar';
 
 export default function TodoCommentsTemplate ({
   children,
   className,
   disableGutters,
   disableBorderBottom,
-  AvatarProps,
+  avatar,
   ...restProps
 }) {
   return (
@@ -26,9 +25,11 @@ export default function TodoCommentsTemplate ({
             'TodoCommentTemplate__border-bottom': !disableBorderBottom
           })}
       >
-        <ListItemIcon className='TodoCommentTemplate_avatar'>
-          <Avatar {...AvatarProps} />
-        </ListItemIcon>
+        {avatar && (
+            <ListItemIcon className='TodoCommentTemplate_avatar'>
+              {avatar}
+            </ListItemIcon>
+        )}
         <ListItemText className='TodoCommentTemplate_text'>
           {children || null}
         </ListItemText>
@@ -39,7 +40,10 @@ export default function TodoCommentsTemplate ({
 TodoCommentsTemplate.propTypes = {
   disableGutters: PropTypes.bool,
   disableBorderBottom: PropTypes.bool,
-  AvatarProps: PropTypes.object
+  avatar: PropTypes.oneOfType([
+    PropTypes.node,
+    PropTypes.element
+  ])
 };
 
 TodoCommentsTemplate.defaultProps = {

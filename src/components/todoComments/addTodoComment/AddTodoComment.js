@@ -8,6 +8,7 @@ import { TextareaAutosize } from '@material-ui/core';
 import './AddTodoComment.css';
 import TodoCommentTemplate from '../todoCommentTemplate/TodoCommentTemplate';
 import ActionButton from '../../buttons/actionButton/ActionButton';
+import Avatar from '../../avatar/Avatar'
 
 export default class AddTodoComment extends PureComponent {
   state = {
@@ -41,6 +42,7 @@ export default class AddTodoComment extends PureComponent {
             disableGutters
             disableBorderBottom
             className={className}
+            avatar={<Avatar />}
         >
           <form onSubmit={this.onSubmit} className='AddTodoComment'>
             <TextareaAutosize
