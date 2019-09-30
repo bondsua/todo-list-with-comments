@@ -2,10 +2,12 @@
   "name": "todo-list-with-comments",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bondsua.github.io/todo-list-with-comments",
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@material-ui/styles": "^4.4.3",
     "classnames": "^2.2.6",
+    "gh-pages": "^2.1.1",
     "js-cookie": "^2.2.1",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
@@ -22,7 +24,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
