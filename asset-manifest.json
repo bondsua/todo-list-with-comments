@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.cfb6cb3b.chunk.css",
-    "main.js": "/static/js/main.30337a72.chunk.js",
-    "main.js.map": "/static/js/main.30337a72.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.08e939a5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.08e939a5.js.map",
-    "static/js/2.ed0cf732.chunk.js": "/static/js/2.ed0cf732.chunk.js",
-    "static/js/2.ed0cf732.chunk.js.map": "/static/js/2.ed0cf732.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4fcacd99599292f93be51a2cd654917a.js": "/precache-manifest.4fcacd99599292f93be51a2cd654917a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.cfb6cb3b.chunk.css.map": "/static/css/main.cfb6cb3b.chunk.css.map"
+    "main.css": "/todo-list-with-comments/static/css/main.cfb6cb3b.chunk.css",
+    "main.js": "/todo-list-with-comments/static/js/main.30337a72.chunk.js",
+    "main.js.map": "/todo-list-with-comments/static/js/main.30337a72.chunk.js.map",
+    "runtime-main.js": "/todo-list-with-comments/static/js/runtime-main.8d7f6004.js",
+    "runtime-main.js.map": "/todo-list-with-comments/static/js/runtime-main.8d7f6004.js.map",
+    "static/js/2.ed0cf732.chunk.js": "/todo-list-with-comments/static/js/2.ed0cf732.chunk.js",
+    "static/js/2.ed0cf732.chunk.js.map": "/todo-list-with-comments/static/js/2.ed0cf732.chunk.js.map",
+    "index.html": "/todo-list-with-comments/index.html",
+    "precache-manifest.62f7718d3926a50c8b4e47d7ccf569d6.js": "/todo-list-with-comments/precache-manifest.62f7718d3926a50c8b4e47d7ccf569d6.js",
+    "service-worker.js": "/todo-list-with-comments/service-worker.js",
+    "static/css/main.cfb6cb3b.chunk.css.map": "/todo-list-with-comments/static/css/main.cfb6cb3b.chunk.css.map"
   }
 }
